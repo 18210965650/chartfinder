@@ -14,8 +14,8 @@
 <body>
 <!-- Main Container -->
 <div class="container"> 
-  <!-- Header -->
-<!-- TemplateBeginEditable name="body" -->
+  <!-- Header --> 
+  <!-- TemplateBeginEditable name="body" -->
   <header class="header">
     <h4 class="logo">ZGZU</h4>
     <h4 class="logo">广州飞行情报区</h4>
@@ -24,38 +24,23 @@
   <section class="intro"> </section>
   <!-- Stats Gallery Section -->
   <div class="gallery">
-    <div class="thumbnail"> <a href="#"></a>
-     
-    </div>
-    <div class="thumbnail"> <a href="#"></a>
-     
-    </div>
-    <div class="thumbnail"> <a href="#"></a>
-      
-    </div>
-    <div class="thumbnail"> <a href="#"></a>
-      
-    </div>
+    <div class="thumbnail"> <a href="#"></a> </div>
+    <div class="thumbnail"> <a href="#"></a> </div>
+    <div class="thumbnail"> <a href="#"></a> </div>
+    <div class="thumbnail"> <a href="#"></a> </div>
   </div>
   <div class="gallery">
-    <div class="thumbnail"> <a href="#"></a>
-    
-    </div>
-    <div class="thumbnail"> <a href="#"></a>
-    
-    </div>
-    <div class="thumbnail"> <a href="#"></a>
-    
-    </div>
+    <div class="thumbnail"> <a href="#"></a> </div>
+    <div class="thumbnail"> <a href="#"></a> </div>
+    <div class="thumbnail"> <a href="#"></a> </div>
   </div>
-<!-- TemplateEndEditable -->
+  <!-- TemplateEndEditable --> 
   <!-- Footer Section -->
   <footer id="contact">
-    <div align="center">
-    <a style="vertical-align: middle;" target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=a9991bb9f187cf148c9a5e51f1c79340cdfdef59097cfaa21d1fea8ba1c5f402"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Xplane11-CAFS虚拟海航集团" title="Xplane11-CAFS虚拟海航集团"></a>
-    </div>
+    <div align="center"> <a style="vertical-align: middle;" target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=a9991bb9f187cf148c9a5e51f1c79340cdfdef59097cfaa21d1fea8ba1c5f402"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Xplane11-CAFS虚拟海航集团" title="Xplane11-CAFS虚拟海航集团"></a> </div>
+    <p align="center">群号：636229841</p>
   </footer>
-<!-- Main Container Ends -->
-    </div>
+  <!-- Main Container Ends --> 
+</div>
 </body>
 </html>
