@@ -111,7 +111,6 @@ header {
 	opacity: 0.8;
 }
 .intro .column p {
-    background-image:url('images/china.png');
     background-repeat:repeat-x;
 	padding-left: 30px;
 	padding-right: 30px;

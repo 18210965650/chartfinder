@@ -7,7 +7,10 @@
 <title>ChartFinder</title>
 <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+
+<body onLoad="load();">
+    <script type="text/javascript" src="./js/AIP.js"></script>
+    <script type="text/javascript" src="./js/load.js"></script>
 <!-- Main Container -->
 <div class="container"> 
   <!-- Header -->
@@ -21,10 +24,12 @@
         1.不可用于真实飞行，仅供模拟飞行使用<br>
         2.中国飞行情报区包含香港飞行情报区及台北飞行情报区，因中国民航局发布的航行资料汇编中并未包含香港，台湾地区，所以在制作地图时并未将其用颜色标出，但其为中华人民共和国领土。<br>
         3.所有航图版权归属中国民航局<br>
-        4.如有其它问题，请联系QQ群董事会处理，我们会及时修改</p>
-      <p>&nbsp;&nbsp;</p>
+        4.如有其它问题，请联系QQ群董事会处理，我们会及时修改<br>
+        当前已生效AIP版本号：2003 <br>
+          请注意更新导航数据</p>
+      <p id = "showtime"></p>
       <img src="images/logo.png" width="300" height="300" alt=""/> </div>
-    <img src="images/china.png" width="600" height="600" alt=""/> </section>
+    <img src="images/china.jpg" width="600" height="600" alt=""/> </section>
   <!-- Stats Gallery Section -->
   <div class="gallery">
     <div class="thumbnail"> <a href="ERC/ERC.html"><img src="images/ERC.png" alt="" width="2000" height="2000" class="cards"/></a>
@@ -71,7 +76,7 @@
       <h4>ZYSH</h4>
       <p class="tag">沈阳飞行情报区</p>
     </div>
-    <div class="thumbnail"> <a href="OTHER/OTHER.html"><img src="images/china.png" alt="" width="2000" height="2000" class="cards"/></a>
+    <div class="thumbnail"> <a href="OTHER/OTHER.html"><img src="images/china.jpg" alt="" width="2000" height="2000" class="cards"/></a>
       <h4>OTHER</h4>
       <p class="tag">eAIP中其他资料</p>
     </div>
@@ -79,6 +84,7 @@
   <!-- Footer Section -->
   <footer id="contact">
     <div align="center"> <a style="vertical-align: middle;" target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=a9991bb9f187cf148c9a5e51f1c79340cdfdef59097cfaa21d1fea8ba1c5f402"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Xplane11-CAFS虚拟海航集团" title="Xplane11-CAFS虚拟海航集团"></a> </div>
+      <p align="center">群号：636229841</p>
   </footer>
   <!-- Copyrights Section --></div>
 <!-- Main Container Ends -->
