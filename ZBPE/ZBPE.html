@@ -6,10 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ZBPE</title>
 <link href="../css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+<link href="../css/layui.css" rel="stylesheet" type="text/css">
+<script src="../layui.js" type="text/javascript"></script>
 </head>
 <body>
 <!-- Main Container -->
-<div class="container"> 
+<div class="container">
   <!-- Header -->
   <header class="header">
     <h4 class="logo">ZBPE</h4>
@@ -19,201 +21,241 @@
   <section class="intro"> </section>
   <!-- Stats Gallery Section -->
   <div class="gallery">
-    <div class="thumbnail"> <a href="#"></a>
-      <h4>ZBAA</h4>
-      <p class="tag">北京首都国际机场</p>
-      <p class="tag">机场细则:</p>
-      <p class="tag"><a href="./ZBAA/AD/ZBAA.pdf">ZBAA</a></p>
-      <p class="tag">机场图:</p>
-      <p class="tag"><a href="./ZBAA/ADC/ZBAA-1A.pdf">ZBAA-1A</a>&nbsp;&nbsp;<a href="./ZBAA/ADC/ZBAA-1B.pdf">ZBAA-1B</a></p>
-      <p class="tag">机场障碍物图:</p>
-      <p class="tag"><a href="./ZBAA/AOC/ZBAA-4A.pdf">ZBAA-4A</a>&nbsp;&nbsp;<a href="./ZBAA/AOC/ZBAA-4B.pdf">ZBAA-4B</a></p>
-      <p class="tag"><a href="./ZBAA/AOC/ZBAA-4C.pdf">ZBAA-4C</a></p>
-      <p class="tag">停机位图:</p>
-      <p class="tag"><a href="./ZBAA/APDC/ZBAA-2A.pdf">ZBAA-2A</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2B.pdf">ZBAA-2B</a></p>
-      <p class="tag"><a href="./ZBAA/APDC/ZBAA-2E.pdf">ZBAA-2E</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2F.pdf">ZBAA-2F</a></p>
-      <p class="tag"><a href="./ZBAA/APDC/ZBAA-2G.pdf">ZBAA-2G</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2H.pdf">ZBAA-2H</a></p>
-      <p class="tag"><a href="./ZBAA/APDC/ZBAA-2J.pdf">ZBAA-2J</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2K.pdf">ZBAA-2K</a></p>
-      <p class="tag"><a href="./ZBAA/APDC/ZBAA-2L.pdf">ZBAA-2L</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2M.pdf">ZBAA-2M</a></p>
-      <p class="tag"><a href="./ZBAA/APDC/ZBAA-2N.pdf">ZBAA-2N</a></p>
-      <p class="tag">放油区域图:</p>
-      <p class="tag"><a href="./ZBAA/FDA/ZBAA-6.pdf">ZBAA-6</a></p>
-      <p class="tag">仪表进近图:</p>
-      <p class="tag"><a href="./ZBAA/IAC/ZBAA-20A.pdf">ZBAA-20A</a>&nbsp;&nbsp;<a href="./ZBAA/IAC/ZBAA-20B.pdf">ZBAA-20B</a></p>
-      <p class="tag"><a href="./ZBAA/IAC/ZBAA-20C.pdf">ZBAA-20C</a>&nbsp;&nbsp;<a href="./ZBAA/IAC/ZBAA-20D.pdf">ZBAA-20D</a></p>
-      <p class="tag"><a href="./ZBAA/IAC/ZBAA-20E.pdf">ZBAA-20E</a>&nbsp;&nbsp;<a href="./ZBAA/IAC/ZBAA-20F.pdf">ZBAA-20F</a></p>
-      <p class="tag">精密进近地形图:</p>
-      <p class="tag"><a href="./ZBAA/PATC/ZBAA-5A.pdf">ZBAA-5A</a>&nbsp;&nbsp;<a href="./ZBAA/PATC/ZBAA-5B.pdf">ZBAA-5B</a></p>
-      <p class="tag">标准仪表离场图:</p>
-      <p class="tag"><a href="./ZBAA/SID/ZBAA-7A.pdf">ZBAA-7A</a>&nbsp;&nbsp;<a href="./ZBAA/SID/ZBAA-7B.pdf">ZBAA-7B</a></p>
-      <p class="tag">标准仪表进近图:</p>
-      <p class="tag"><a href="./ZBAA/STAR/ZBAA-9A.pdf">ZBAA-9A</a>&nbsp;&nbsp;<a href="./ZBAA/STAR/ZBAA-9B.pdf">ZBAA-9B</a></p>
+    <div class="gz1">
+      <div class="layui-collapse">
+        <div class="layui-colla-item">
+          <h4 class="layui-colla-title">ZBAA/北京首都国际机场</h4>
+          <div class="layui-colla-content">
+            <p class="tag">机场细则:</p>
+            <p class="tag"><a href="./ZBAA/AD/AD_ZBAA.pdf">AD_ZBAA</a>&nbsp;&nbsp;<a href="./ZBAA/AD/ZBAA.pdf">ZBAA</a></p>
+            <p class="tag">机场图:</p>
+            <p class="tag"><a href="./ZBAA/ADC/ZBAA-1A.pdf">ZBAA-1A</a>&nbsp;&nbsp;<a href="./ZBAA/ADC/ZBAA-1B.pdf">ZBAA-1B</a></p>
+            <p class="tag">机场障碍物图:</p>
+            <p class="tag"><a href="./ZBAA/AOC/ZBAA-4A.pdf">ZBAA-4A</a>&nbsp;&nbsp;<a href="./ZBAA/AOC/ZBAA-4B.pdf">ZBAA-4B</a></p>
+            <p class="tag"><a href="./ZBAA/AOC/ZBAA-4C.pdf">ZBAA-4C</a></p>
+            <p class="tag">停机位图:</p>
+            <p class="tag"><a href="./ZBAA/APDC/ZBAA-2A.pdf">ZBAA-2A</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2B.pdf">ZBAA-2B</a></p>
+            <p class="tag"><a href="./ZBAA/APDC/ZBAA-2E.pdf">ZBAA-2E</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2F.pdf">ZBAA-2F</a></p>
+            <p class="tag"><a href="./ZBAA/APDC/ZBAA-2G.pdf">ZBAA-2G</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2H.pdf">ZBAA-2H</a></p>
+            <p class="tag"><a href="./ZBAA/APDC/ZBAA-2J.pdf">ZBAA-2J</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2K.pdf">ZBAA-2K</a></p>
+            <p class="tag"><a href="./ZBAA/APDC/ZBAA-2L.pdf">ZBAA-2L</a>&nbsp;&nbsp;<a href="./ZBAA/APDC/ZBAA-2M.pdf">ZBAA-2M</a></p>
+            <p class="tag"><a href="./ZBAA/APDC/ZBAA-2N.pdf">ZBAA-2N</a></p>
+            <p class="tag">其他:</p>
+            <p class="tag"><a href="./ZBAA/FDA/ZBAA-6.pdf">ZBAA-6</a></p>
+            <p class="tag">仪表进近图:</p>
+            <p class="tag"><a href="./ZBAA/IAC/ZBAA-20A.pdf">ZBAA-20A</a>&nbsp;&nbsp;<a href="./ZBAA/IAC/ZBAA-20B.pdf">ZBAA-20B</a></p>
+            <p class="tag"><a href="./ZBAA/IAC/ZBAA-20C.pdf">ZBAA-20C</a>&nbsp;&nbsp;<a href="./ZBAA/IAC/ZBAA-20D.pdf">ZBAA-20D</a></p>
+            <p class="tag"><a href="./ZBAA/IAC/ZBAA-20E.pdf">ZBAA-20E</a>&nbsp;&nbsp;<a href="./ZBAA/IAC/ZBAA-20F.pdf">ZBAA-20F</a></p>
+            <p class="tag">精密进近地形图:</p>
+            <p class="tag"><a href="./ZBAA/PATC/ZBAA-5A.pdf">ZBAA-5A</a>&nbsp;&nbsp;<a href="./ZBAA/PATC/ZBAA-5B.pdf">ZBAA-5B</a></p>
+            <p class="tag">标准仪表离场图:</p>
+            <p class="tag"><a href="./ZBAA/SID/ZBAA-7A.pdf">ZBAA-7A</a>&nbsp;&nbsp;<a href="./ZBAA/SID/ZBAA-7B.pdf">ZBAA-7B</a></p>
+            <p class="tag">标准仪表进近图:</p>
+            <p class="tag"><a href="./ZBAA/STAR/ZBAA-9A.pdf">ZBAA-9A</a>&nbsp;&nbsp;<a href="./ZBAA/STAR/ZBAA-9B.pdf">ZBAA-9B</a></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="thumbnail"> <a href="#"></a>
-      <h4>ZBAD</h4>
-      <p class="tag">北京大兴国际机场</p>
-      <p class="tag">机场细则:</p>
-      <p class="tag"><a href="./ZBAD/AD/ZBAD.pdf">ZBAD</a></p>
-      <p class="tag">机场图:</p>
-      <p class="tag"><a href="./ZBAD/ADC/ZBAD-1A.pdf">ZBAD-1A</a>&nbsp;&nbsp;<a href="./ZBAD/ADC/ZBAD-1B.pdf">ZBAD-1B</a></p>
-      <p class="tag">机场障碍物图:</p>
-      <p class="tag"><a href="./ZBAD/AOC/ZBAD-4A.pdf">ZBAD-4A</a>&nbsp;&nbsp;<a href="./ZBAD/AOC/ZBAD-4B.pdf">ZBAD-4B</a></p>
-      <p class="tag"><a href="./ZBAD/AOC/ZBAD-4C.pdf">ZBAD-4C</a>&nbsp;&nbsp;<a href="./ZBAD/AOC/ZBAD-4D.pdf">ZBAD-4D</a></p>
-      <p class="tag">停机位图:</p>
-      <p class="tag"><a href="./ZBAD/APDC/ZBAD-2.pdf">ZBAD-2</a></p>
-      <p class="tag">仪表进近图:</p>
-      <p class="tag"><a href="./ZBAD/IAC/ZBAD-20A.pdf">ZBAD-20A</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20B.pdf">ZBAD-20B</a></p>
-      <p class="tag"><a href="./ZBAD/IAC/ZBAD-20C.pdf">ZBAD-20C</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20D.pdf">ZBAD-20D</a></p>
-      <p class="tag"><a href="./ZBAD/IAC/ZBAD-20E.pdf">ZBAD-20E</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20F.pdf">ZBAD-20F</a></p>
-      <p class="tag"><a href="./ZBAD/IAC/ZBAD-20G.pdf">ZBAD-20G</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20H.pdf">ZBAD-20H</a></p>
-      <p class="tag"><a href="./ZBAD/IAC/ZBAD-20J.pdf">ZBAD-20J</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20K.pdf">ZBAD-20K</a></p>
-      <p class="tag"><a href="./ZBAD/IAC/ZBAD-20L.pdf">ZBAD-20L</a></p>
-      <p class="tag">精密进近地形图:</p>
-      <p class="tag"><a href="./ZBAD/PATC/ZBAD-5A.pdf">ZBAD-5A</a>&nbsp;&nbsp;<a href="./ZBAD/PATC/ZBAD-5B.pdf">ZBAD-5B</a></p>
-      <p class="tag">标准仪表离场图:</p>
-      <p class="tag"><a href="./ZBAD/SID/ZBAD-7A.pdf">ZBAD-7A</a>&nbsp;&nbsp;<a href="./ZBAD/SID/ZBAD-7B.pdf">ZBAD-7B</a></p>
-      <p class="tag"><a href="./ZBAD/SID/ZBAD-7C.pdf">ZBAD-7C</a></p>
-      <p class="tag">标准仪表进近图:</p>
-      <p class="tag"><a href="./ZBAD/STAR/ZBAD-9A.pdf">ZBAD-9A</a>&nbsp;&nbsp;<a href="./ZBAD/STAR/ZBAD-9B.pdf">ZBAD-9B</a></p>
+    <div class="gz1">
+      <div class="layui-collapse">
+        <div class="layui-colla-item">
+          <h4 class="layui-colla-title">ZBAD/北京大兴国际机场</h4>
+          <div class="layui-colla-content">
+            <p class="tag">机场细则:</p>
+            <p class="tag"><a href="./ZBAD/AD/AD_ZBAD.pdf">AD_ZBAD</a>&nbsp;&nbsp;<a href="./ZBAD/AD/ZBAD.pdf">ZBAD</a></p>
+            <p class="tag">机场图:</p>
+            <p class="tag"><a href="./ZBAD/ADC/ZBAD-1A.pdf">ZBAD-1A</a>&nbsp;&nbsp;<a href="./ZBAD/ADC/ZBAD-1B.pdf">ZBAD-1B</a></p>
+            <p class="tag">机场障碍物图:</p>
+            <p class="tag"><a href="./ZBAD/AOC/ZBAD-4A.pdf">ZBAD-4A</a>&nbsp;&nbsp;<a href="./ZBAD/AOC/ZBAD-4B.pdf">ZBAD-4B</a></p>
+            <p class="tag"><a href="./ZBAD/AOC/ZBAD-4C.pdf">ZBAD-4C</a>&nbsp;&nbsp;<a href="./ZBAD/AOC/ZBAD-4D.pdf">ZBAD-4D</a></p>
+            <p class="tag">停机位图:</p>
+            <p class="tag"><a href="./ZBAD/APDC/ZBAD-2.pdf">ZBAD-2</a></p>
+            <p class="tag">仪表进近图:</p>
+            <p class="tag"><a href="./ZBAD/IAC/ZBAD-20A.pdf">ZBAD-20A</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20B.pdf">ZBAD-20B</a></p>
+            <p class="tag"><a href="./ZBAD/IAC/ZBAD-20C.pdf">ZBAD-20C</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20D.pdf">ZBAD-20D</a></p>
+            <p class="tag"><a href="./ZBAD/IAC/ZBAD-20E.pdf">ZBAD-20E</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20F.pdf">ZBAD-20F</a></p>
+            <p class="tag"><a href="./ZBAD/IAC/ZBAD-20G.pdf">ZBAD-20G</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20H.pdf">ZBAD-20H</a></p>
+            <p class="tag"><a href="./ZBAD/IAC/ZBAD-20J.pdf">ZBAD-20J</a>&nbsp;&nbsp;<a href="./ZBAD/IAC/ZBAD-20K.pdf">ZBAD-20K</a></p>
+            <p class="tag"><a href="./ZBAD/IAC/ZBAD-20L.pdf">ZBAD-20L</a></p>
+            <p class="tag">精密进近地形图:</p>
+            <p class="tag"><a href="./ZBAD/PATC/ZBAD-5A.pdf">ZBAD-5A</a>&nbsp;&nbsp;<a href="./ZBAD/PATC/ZBAD-5B.pdf">ZBAD-5B</a></p>
+            <p class="tag">标准仪表离场图:</p>
+            <p class="tag"><a href="./ZBAD/SID/ZBAD-7A.pdf">ZBAD-7A</a>&nbsp;&nbsp;<a href="./ZBAD/SID/ZBAD-7B.pdf">ZBAD-7B</a></p>
+            <p class="tag"><a href="./ZBAD/SID/ZBAD-7C.pdf">ZBAD-7C</a></p>
+            <p class="tag">标准仪表进近图:</p>
+            <p class="tag"><a href="./ZBAD/STAR/ZBAD-9A.pdf">ZBAD-9A</a>&nbsp;&nbsp;<a href="./ZBAD/STAR/ZBAD-9B.pdf">ZBAD-9B</a></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="thumbnail"> <a href="#"></a>
-      <h4>ZBDS</h4>
-      <p class="tag">鄂尔多斯伊金霍洛国际机场</p>
-      <p class="tag">机场细则:</p>
-      <p class="tag"><a href="./ZBDS/AD/ZBDS.pdf">ZBDS</a></p>
-      <p class="tag">机场图:</p>
-      <p class="tag"><a href="./ZBDS/ADC/ZBDS-1.pdf">ZBDS-1</a></p>
-      <p class="tag">机场障碍物图:</p>
-      <p class="tag"><a href="./ZBDS/AOC/ZBDS-4.pdf">ZBDS-4</a></p>
-      <p class="tag">停机位图:</p>
-      <p class="tag"><a href="./ZBDS/APDC/ZBDS-2.pdf">ZBDS-2</a></p>
-      <p class="tag">仪表进近图:</p>
-      <p class="tag"><a href="./ZBDS/IAC/ZBDS-10A.pdf">ZBDS-10A</a>&nbsp;&nbsp;<a href="./ZBDS/IAC/ZBDS-10B.pdf">ZBDS-10B</a></p>
-      <p class="tag"><a href="./ZBDS/IAC/ZBDS-10C.pdf">ZBDS-10C</a>&nbsp;&nbsp;<a href="./ZBDS/IAC/ZBDS-10D.pdf">ZBDS-10D</a></p>
-      <p class="tag"><a href="./ZBDS/IAC/ZBDS-10E.pdf">ZBDS-10E</a>&nbsp;&nbsp;<a href="./ZBDS/IAC/ZBDS-20A.pdf">ZBDS-20A</a></p>
-      <p class="tag"><a href="./ZBDS/IAC/ZBDS-20B.pdf">ZBDS-20B</a></p>
-      <p class="tag">标准仪表离场图:</p>
-      <p class="tag"><a href="./ZBDS/SID/ZBDS-7A.pdf">ZBDS-7A</a>&nbsp;&nbsp;<a href="./ZBDS/SID/ZBDS-7B.pdf">ZBDS-7B</a></p>
-      <p class="tag"><a href="./ZBDS/SID/ZBDS-7C.pdf">ZBDS-7C</a>&nbsp;&nbsp;<a href="./ZBDS/SID/ZBDS-7D.pdf">ZBDS-7D</a></p>
-      <p class="tag">标准仪表进近图:</p>
-      <p class="tag"><a href="./ZBDS/STAR/ZBDS-9A.pdf">ZBDS-9A</a>&nbsp;&nbsp;<a href="./ZBDS/STAR/ZBDS-9B.pdf">ZBDS-9B</a></p>
-      <p class="tag"><a href="./ZBDS/STAR/ZBDS-9C.pdf">ZBDS-9C</a>&nbsp;&nbsp;<a href="./ZBDS/STAR/ZBDS-9D.pdf">ZBDS-9D</a></p>
+    <div class="gz1">
+      <div class="layui-collapse">
+        <div class="layui-colla-item">
+          <h4 class="layui-colla-title">ZBDS/鄂尔多斯伊金霍洛国际机场</h4>
+          <div class="layui-colla-content">
+            <p class="tag">机场细则:</p>
+            <p class="tag"><a href="./ZBDS/AD/AD_ZBDS.pdf">AD_ZBDS</a>&nbsp;&nbsp;<a href="./ZBDS/AD/ZBDS.pdf">ZBDS</a></p>
+            <p class="tag">机场图:</p>
+            <p class="tag"><a href="./ZBDS/ADC/ZBDS-1.pdf">ZBDS-1</a></p>
+            <p class="tag">机场障碍物图:</p>
+            <p class="tag"><a href="./ZBDS/AOC/ZBDS-4.pdf">ZBDS-4</a></p>
+            <p class="tag">停机位图:</p>
+            <p class="tag"><a href="./ZBDS/APDC/ZBDS-2.pdf">ZBDS-2</a></p>
+            <p class="tag">仪表进近图:</p>
+            <p class="tag"><a href="./ZBDS/IAC/ZBDS-10A.pdf">ZBDS-10A</a>&nbsp;&nbsp;<a href="./ZBDS/IAC/ZBDS-10B.pdf">ZBDS-10B</a></p>
+            <p class="tag"><a href="./ZBDS/IAC/ZBDS-10C.pdf">ZBDS-10C</a>&nbsp;&nbsp;<a href="./ZBDS/IAC/ZBDS-10D.pdf">ZBDS-10D</a></p>
+            <p class="tag"><a href="./ZBDS/IAC/ZBDS-10E.pdf">ZBDS-10E</a>&nbsp;&nbsp;<a href="./ZBDS/IAC/ZBDS-20A.pdf">ZBDS-20A</a></p>
+            <p class="tag"><a href="./ZBDS/IAC/ZBDS-20B.pdf">ZBDS-20B</a></p>
+            <p class="tag">标准仪表离场图:</p>
+            <p class="tag"><a href="./ZBDS/SID/ZBDS-7A.pdf">ZBDS-7A</a>&nbsp;&nbsp;<a href="./ZBDS/SID/ZBDS-7B.pdf">ZBDS-7B</a></p>
+            <p class="tag"><a href="./ZBDS/SID/ZBDS-7C.pdf">ZBDS-7C</a>&nbsp;&nbsp;<a href="./ZBDS/SID/ZBDS-7D.pdf">ZBDS-7D</a></p>
+            <p class="tag">标准仪表进近图:</p>
+            <p class="tag"><a href="./ZBDS/STAR/ZBDS-9A.pdf">ZBDS-9A</a>&nbsp;&nbsp;<a href="./ZBDS/STAR/ZBDS-9B.pdf">ZBDS-9B</a></p>
+            <p class="tag"><a href="./ZBDS/STAR/ZBDS-9C.pdf">ZBDS-9C</a>&nbsp;&nbsp;<a href="./ZBDS/STAR/ZBDS-9D.pdf">ZBDS-9D</a></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="thumbnail"> <a href="#"></a>
-      <h4>ZBHH</h4>
-      <p class="tag">呼和浩特白塔国际机场</p>
-      <p class="tag">机场细则:</p>
-      <p class="tag"><a href="./ZBHH/AD/ZBHH.pdf">ZBHH</a></p>
-      <p class="tag">机场图:</p>
-      <p class="tag"><a href="./ZBHH/ADC/ZBHH-1.pdf">ZBHH-1</a></p>
-      <p class="tag">机场障碍物图:</p>
-      <p class="tag"><a href="./ZBHH/AOC/ZBHH-4.pdf">ZBHH-4</a></p>
-      <p class="tag">停机位图:</p>
-      <p class="tag"><a href="./ZBHH/APDC/ZBHH-2.pdf">ZBHH-2</a></p>
-      <p class="tag">放油区域图:</p>
-      <p class="tag"><a href="./ZBHH/FDA/ZBHH-6.pdf">ZBHH-6</a></p>
-      <p class="tag">仪表进近图:</p>
-      <p class="tag"><a href="./ZBHH/IAC/ZBHH-10A.pdf">ZBHH-10A</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-10B.pdf">ZBHH-10B</a></p>
-      <p class="tag"><a href="./ZBHH/IAC/ZBHH-10C.pdf">ZBHH-10C</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-10D.pdf">ZBHH-10D</a></p>
-      <p class="tag"><a href="./ZBHH/IAC/ZBHH-10E.pdf">ZBHH-10E</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-10F.pdf">ZBHH-10F</a></p>
-      <p class="tag"><a href="./ZBHH/IAC/ZBHH-20A.pdf">ZBHH-20A</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-20B.pdf">ZBHH-20B</a></p>
-      <p class="tag">标准仪表离场图:</p>
-      <p class="tag"><a href="./ZBHH/SID/ZBHH-7A.pdf">ZBHH-7A</a>&nbsp;&nbsp;<a href="./ZBHH/SID/ZBHH-7B.pdf">ZBHH-7B</a></p>
-      <p class="tag"><a href="./ZBHH/SID/ZBHH-7C.pdf">ZBHH-7C</a>&nbsp;&nbsp;<a href="./ZBHH/SID/ZBHH-7D.pdf">ZBHH-7D</a></p>
-      <p class="tag"><a href="./ZBHH/SID/ZBHH-7E.pdf">ZBHH-7E</a>&nbsp;&nbsp;<a href="./ZBHH/SID/ZBHH-7F.pdf">ZBHH-7F</a></p>
-      <p class="tag">标准仪表进近图:</p>
-      <p class="tag"><a href="./ZBHH/STAR/ZBHH-9A.pdf">ZBHH-9A</a>&nbsp;&nbsp;<a href="./ZBHH/STAR/ZBHH-9B.pdf">ZBHH-9B</a></p>
-      <p class="tag"><a href="./ZBHH/STAR/ZBHH-9C.pdf">ZBHH-9C</a>&nbsp;&nbsp;<a href="./ZBHH/STAR/ZBHH-9D.pdf">ZBHH-9D</a></p>
-      <p class="tag"><a href="./ZBHH/STAR/ZBHH-9E.pdf">ZBHH-9E</a>&nbsp;&nbsp;<a href="./ZBHH/STAR/ZBHH-9F.pdf">ZBHH-9F</a></p>
+    <div class="gz1">
+      <div class="layui-collapse">
+        <div class="layui-colla-item">
+          <h4 class="layui-colla-title">ZBHH/呼和浩特白塔国际机场</h4>
+          <div class="layui-colla-content">
+            <p class="tag">机场细则:</p>
+            <p class="tag"><a href="./ZBHH/AD/AD_ZBHH.pdf">AD_ZBHH</a>&nbsp;&nbsp;<a href="./ZBHH/AD/ZBHH.pdf">ZBHH</a></p>
+            <p class="tag">机场图:</p>
+            <p class="tag"><a href="./ZBHH/ADC/ZBHH-1.pdf">ZBHH-1</a></p>
+            <p class="tag">机场障碍物图:</p>
+            <p class="tag"><a href="./ZBHH/AOC/ZBHH-4.pdf">ZBHH-4</a></p>
+            <p class="tag">停机位图:</p>
+            <p class="tag"><a href="./ZBHH/APDC/ZBHH-2.pdf">ZBHH-2</a></p>
+            <p class="tag">其他:</p>
+            <p class="tag"><a href="./ZBHH/FDA/ZBHH-6.pdf">ZBHH-6</a></p>
+            <p class="tag">仪表进近图:</p>
+            <p class="tag"><a href="./ZBHH/IAC/ZBHH-10A.pdf">ZBHH-10A</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-10B.pdf">ZBHH-10B</a></p>
+            <p class="tag"><a href="./ZBHH/IAC/ZBHH-10C.pdf">ZBHH-10C</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-10D.pdf">ZBHH-10D</a></p>
+            <p class="tag"><a href="./ZBHH/IAC/ZBHH-10E.pdf">ZBHH-10E</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-10F.pdf">ZBHH-10F</a></p>
+            <p class="tag"><a href="./ZBHH/IAC/ZBHH-10G.pdf">ZBHH-10G</a>&nbsp;&nbsp;<a href="./ZBHH/IAC/ZBHH-20A.pdf">ZBHH-20A</a></p>
+            <p class="tag"><a href="./ZBHH/IAC/ZBHH-20B.pdf">ZBHH-20B</a></p>
+            <p class="tag">标准仪表离场图:</p>
+            <p class="tag"><a href="./ZBHH/SID/ZBHH-7A.pdf">ZBHH-7A</a>&nbsp;&nbsp;<a href="./ZBHH/SID/ZBHH-7B.pdf">ZBHH-7B</a></p>
+            <p class="tag"><a href="./ZBHH/SID/ZBHH-7C.pdf">ZBHH-7C</a>&nbsp;&nbsp;<a href="./ZBHH/SID/ZBHH-7D.pdf">ZBHH-7D</a></p>
+            <p class="tag"><a href="./ZBHH/SID/ZBHH-7E.pdf">ZBHH-7E</a>&nbsp;&nbsp;<a href="./ZBHH/SID/ZBHH-7F.pdf">ZBHH-7F</a></p>
+            <p class="tag">标准仪表进近图:</p>
+            <p class="tag"><a href="./ZBHH/STAR/ZBHH-9A.pdf">ZBHH-9A</a>&nbsp;&nbsp;<a href="./ZBHH/STAR/ZBHH-9B.pdf">ZBHH-9B</a></p>
+            <p class="tag"><a href="./ZBHH/STAR/ZBHH-9C.pdf">ZBHH-9C</a>&nbsp;&nbsp;<a href="./ZBHH/STAR/ZBHH-9D.pdf">ZBHH-9D</a></p>
+            <p class="tag"><a href="./ZBHH/STAR/ZBHH-9E.pdf">ZBHH-9E</a>&nbsp;&nbsp;<a href="./ZBHH/STAR/ZBHH-9F.pdf">ZBHH-9F</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gz1">
+      <div class="layui-collapse">
+        <div class="layui-colla-item">
+          <h4 class="layui-colla-title">ZBSJ/石家庄正定国际机场</h4>
+          <div class="layui-colla-content">
+            <p class="tag">机场细则:</p>
+            <p class="tag"><a href="./ZBSJ/AD/AD_ZBSJ.pdf">AD_ZBSJ</a>&nbsp;&nbsp;<a href="./ZBSJ/AD/ZBSJ.pdf">ZBSJ</a></p>
+            <p class="tag">机场图:</p>
+            <p class="tag"><a href="./ZBSJ/ADC/ZBSJ-1.pdf">ZBSJ-1</a></p>
+            <p class="tag">停机位图:</p>
+            <p class="tag"><a href="./ZBSJ/APDC/ZBSJ-2.pdf">ZBSJ-2</a></p>
+            <p class="tag">其他:</p>
+            <p class="tag"><a href="./ZBSJ/FDA/ZBSJ-6A.pdf">ZBSJ-6A</a>&nbsp;&nbsp;<a href="./ZBSJ/FDA/ZBSJ-6B.pdf">ZBSJ-6B</a></p>
+            <p class="tag">仪表进近图:</p>
+            <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10A.pdf">ZBSJ-10A</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10B.pdf">ZBSJ-10B</a></p>
+            <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10C.pdf">ZBSJ-10C</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10D.pdf">ZBSJ-10D</a></p>
+            <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10E.pdf">ZBSJ-10E</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10F.pdf">ZBSJ-10F</a></p>
+            <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10G.pdf">ZBSJ-10G</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10H.pdf">ZBSJ-10H</a></p>
+            <p class="tag">标准仪表离场图:</p>
+            <p class="tag"><a href="./ZBSJ/SID/ZBSJ-7A.pdf">ZBSJ-7A</a>&nbsp;&nbsp;<a href="./ZBSJ/SID/ZBSJ-7B.pdf">ZBSJ-7B</a></p>
+            <p class="tag"><a href="./ZBSJ/SID/ZBSJ-7C.pdf">ZBSJ-7C</a>&nbsp;&nbsp;<a href="./ZBSJ/SID/ZBSJ-7D.pdf">ZBSJ-7D</a></p>
+            <p class="tag">标准仪表进近图:</p>
+            <p class="tag"><a href="./ZBSJ/STAR/ZBSJ-9A.pdf">ZBSJ-9A</a>&nbsp;&nbsp;<a href="./ZBSJ/STAR/ZBSJ-9B.pdf">ZBSJ-9B</a></p>
+            <p class="tag"><a href="./ZBSJ/STAR/ZBSJ-9C.pdf">ZBSJ-9C</a>&nbsp;&nbsp;<a href="./ZBSJ/STAR/ZBSJ-9D.pdf">ZBSJ-9D</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gz1">
+      <div class="layui-collapse">
+        <div class="layui-colla-item">
+          <h4 class="layui-colla-title">ZBTJ/天津滨海国际机场</h4>
+          <div class="layui-colla-content">
+            <p class="tag">机场细则:</p>
+            <p class="tag"><a href="./ZBTJ/AD/AD_ZBTJ.pdf">AD_ZBTJ</a>&nbsp;&nbsp;<a href="./ZBTJ/AD/ZBTJ.pdf">ZBTJ</a></p>
+            <p class="tag">机场图:</p>
+            <p class="tag"><a href="./ZBTJ/ADC/ZBTJ-1A.pdf">ZBTJ-1A</a>&nbsp;&nbsp;<a href="./ZBTJ/ADC/ZBTJ-1B.pdf">ZBTJ-1B</a></p>
+            <p class="tag">机场障碍物图:</p>
+            <p class="tag"><a href="./ZBTJ/AOC/ZBTJ-4A.pdf">ZBTJ-4A</a>&nbsp;&nbsp;<a href="./ZBTJ/AOC/ZBTJ-4B.pdf">ZBTJ-4B</a></p>
+            <p class="tag">停机位图:</p>
+            <p class="tag"><a href="./ZBTJ/APDC/ZBTJ-2.pdf">ZBTJ-2</a></p>
+            <p class="tag">仪表进近图:</p>
+            <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10A.pdf">ZBTJ-10A</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10B.pdf">ZBTJ-10B</a></p>
+            <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10C.pdf">ZBTJ-10C</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10D.pdf">ZBTJ-10D</a></p>
+            <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10E.pdf">ZBTJ-10E</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10F.pdf">ZBTJ-10F</a></p>
+            <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10G.pdf">ZBTJ-10G</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10H.pdf">ZBTJ-10H</a></p>
+            <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10J.pdf">ZBTJ-10J</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10K.pdf">ZBTJ-10K</a></p>
+            <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-20A.pdf">ZBTJ-20A</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-20B.pdf">ZBTJ-20B</a></p>
+            <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-20C.pdf">ZBTJ-20C</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-20D.pdf">ZBTJ-20D</a></p>
+            <p class="tag">精密进近地形图:</p>
+            <p class="tag"><a href="./ZBTJ/PATC/ZBTJ-5.pdf">ZBTJ-5</a></p>
+            <p class="tag">标准仪表离场图:</p>
+            <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7A.pdf">ZBTJ-7A</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7B.pdf">ZBTJ-7B</a></p>
+            <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7C.pdf">ZBTJ-7C</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7D.pdf">ZBTJ-7D</a></p>
+            <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7E.pdf">ZBTJ-7E</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7F.pdf">ZBTJ-7F</a></p>
+            <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7G.pdf">ZBTJ-7G</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7H.pdf">ZBTJ-7H</a></p>
+            <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7J.pdf">ZBTJ-7J</a></p>
+            <p class="tag">标准仪表进近图:</p>
+            <p class="tag"><a href="./ZBTJ/STAR/ZBTJ-9A.pdf">ZBTJ-9A</a>&nbsp;&nbsp;<a href="./ZBTJ/STAR/ZBTJ-9B.pdf">ZBTJ-9B</a></p>
+            <p class="tag"><a href="./ZBTJ/STAR/ZBTJ-9C.pdf">ZBTJ-9C</a>&nbsp;&nbsp;<a href="./ZBTJ/STAR/ZBTJ-9D.pdf">ZBTJ-9D</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="gallery">
-    <div class="thumbnail"> <a href="#"></a>
-      <h4>ZBSJ</h4>
-      <p class="tag">石家庄正定国际机场</p>
-      <p class="tag">机场细则:</p>
-      <p class="tag"><a href="./ZBSJ/AD/ZBSJ.pdf">ZBSJ</a></p>
-      <p class="tag">机场图:</p>
-      <p class="tag"><a href="./ZBSJ/ADC/ZBSJ-1.pdf">ZBSJ-1</a></p>
-      <p class="tag">停机位图:</p>
-      <p class="tag"><a href="./ZBSJ/APDC/ZBSJ-2.pdf">ZBSJ-2</a></p>
-      <p class="tag">放油区域图:</p>
-      <p class="tag"><a href="./ZBSJ/FDA/ZBSJ-6A.pdf">ZBSJ-6A</a>&nbsp;&nbsp;<a href="./ZBSJ/FDA/ZBSJ-6B.pdf">ZBSJ-6B</a></p>
-      <p class="tag">仪表进近图:</p>
-      <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10A.pdf">ZBSJ-10A</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10B.pdf">ZBSJ-10B</a></p>
-      <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10C.pdf">ZBSJ-10C</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10D.pdf">ZBSJ-10D</a></p>
-      <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10E.pdf">ZBSJ-10E</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10F.pdf">ZBSJ-10F</a></p>
-      <p class="tag"><a href="./ZBSJ/IAC/ZBSJ-10G.pdf">ZBSJ-10G</a>&nbsp;&nbsp;<a href="./ZBSJ/IAC/ZBSJ-10H.pdf">ZBSJ-10H</a></p>
-      <p class="tag">标准仪表离场图:</p>
-      <p class="tag"><a href="./ZBSJ/SID/ZBSJ-7A.pdf">ZBSJ-7A</a>&nbsp;&nbsp;<a href="./ZBSJ/SID/ZBSJ-7B.pdf">ZBSJ-7B</a></p>
-      <p class="tag"><a href="./ZBSJ/SID/ZBSJ-7C.pdf">ZBSJ-7C</a>&nbsp;&nbsp;<a href="./ZBSJ/SID/ZBSJ-7D.pdf">ZBSJ-7D</a></p>
-      <p class="tag">标准仪表进近图:</p>
-      <p class="tag"><a href="./ZBSJ/STAR/ZBSJ-9A.pdf">ZBSJ-9A</a>&nbsp;&nbsp;<a href="./ZBSJ/STAR/ZBSJ-9B.pdf">ZBSJ-9B</a></p>
-      <p class="tag"><a href="./ZBSJ/STAR/ZBSJ-9C.pdf">ZBSJ-9C</a>&nbsp;&nbsp;<a href="./ZBSJ/STAR/ZBSJ-9D.pdf">ZBSJ-9D</a></p>
-    </div>
-    <div class="thumbnail"> <a href="#"></a>
-      <h4>ZBTJ</h4>
-      <p class="tag">天津滨海国际机场</p>
-      <p class="tag">机场细则:</p>
-      <p class="tag"><a href="./ZBTJ/AD/ZBTJ.pdf">ZBTJ</a></p>
-      <p class="tag">机场图:</p>
-      <p class="tag"><a href="./ZBTJ/ADC/ZBTJ-1A.pdf">ZBTJ-1A</a>&nbsp;&nbsp;<a href="./ZBTJ/ADC/ZBTJ-1B.pdf">ZBTJ-1B</a></p>
-      <p class="tag">机场障碍物图:</p>
-      <p class="tag"><a href="./ZBTJ/AOC/ZBTJ-4A.pdf">ZBTJ-4A</a>&nbsp;&nbsp;<a href="./ZBTJ/AOC/ZBTJ-4B.pdf">ZBTJ-4B</a></p>
-      <p class="tag">停机位图:</p>
-      <p class="tag"><a href="./ZBTJ/APDC/ZBTJ-2.pdf">ZBTJ-2</a></p>
-      <p class="tag">仪表进近图:</p>
-      <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10A.pdf">ZBTJ-10A</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10B.pdf">ZBTJ-10B</a></p>
-      <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10C.pdf">ZBTJ-10C</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10D.pdf">ZBTJ-10D</a></p>
-      <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10E.pdf">ZBTJ-10E</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10F.pdf">ZBTJ-10F</a></p>
-      <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10G.pdf">ZBTJ-10G</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10H.pdf">ZBTJ-10H</a></p>
-      <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-10J.pdf">ZBTJ-10J</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-10K.pdf">ZBTJ-10K</a></p>
-      <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-20A.pdf">ZBTJ-20A</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-20B.pdf">ZBTJ-20B</a></p>
-      <p class="tag"><a href="./ZBTJ/IAC/ZBTJ-20C.pdf">ZBTJ-20C</a>&nbsp;&nbsp;<a href="./ZBTJ/IAC/ZBTJ-20D.pdf">ZBTJ-20D</a></p>
-      <p class="tag">精密进近地形图:</p>
-      <p class="tag"><a href="./ZBTJ/PATC/ZBTJ-5.pdf">ZBTJ-5</a></p>
-      <p class="tag">标准仪表离场图:</p>
-      <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7A.pdf">ZBTJ-7A</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7B.pdf">ZBTJ-7B</a></p>
-      <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7C.pdf">ZBTJ-7C</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7D.pdf">ZBTJ-7D</a></p>
-      <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7E.pdf">ZBTJ-7E</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7F.pdf">ZBTJ-7F</a></p>
-      <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7G.pdf">ZBTJ-7G</a>&nbsp;&nbsp;<a href="./ZBTJ/SID/ZBTJ-7H.pdf">ZBTJ-7H</a></p>
-      <p class="tag"><a href="./ZBTJ/SID/ZBTJ-7J.pdf">ZBTJ-7J</a></p>
-      <p class="tag">标准仪表进近图:</p>
-      <p class="tag"><a href="./ZBTJ/STAR/ZBTJ-9A.pdf">ZBTJ-9A</a>&nbsp;&nbsp;<a href="./ZBTJ/STAR/ZBTJ-9B.pdf">ZBTJ-9B</a></p>
-      <p class="tag"><a href="./ZBTJ/STAR/ZBTJ-9C.pdf">ZBTJ-9C</a>&nbsp;&nbsp;<a href="./ZBTJ/STAR/ZBTJ-9D.pdf">ZBTJ-9D</a></p>
-    </div>
-    <div class="thumbnail"> <a href="#"></a>
-      <h4>ZBYN</h4>
-      <p class="tag">太原武宿国际机场</p>
-      <p class="tag">机场细则:</p>
-      <p class="tag"><a href="./ZBYN/AD/ZBYN.pdf">ZBYN</a></p>
-      <p class="tag">机场图:</p>
-      <p class="tag"><a href="./ZBYN/ADC/ZBYN-1.pdf">ZBYN-1</a></p>
-      <p class="tag">机场障碍物图:</p>
-      <p class="tag"><a href="./ZBYN/AOC/ZBYN-4.pdf">ZBYN-4</a></p>
-      <p class="tag">停机位图:</p>
-      <p class="tag"><a href="./ZBYN/APDC/ZBYN-2.pdf">ZBYN-2</a></p>
-      <p class="tag">仪表进近图:</p>
-      <p class="tag"><a href="./ZBYN/IAC/ZBYN-10A.pdf">ZBYN-10A</a>&nbsp;&nbsp;<a href="./ZBYN/IAC/ZBYN-10B.pdf">ZBYN-10B</a></p>
-      <p class="tag"><a href="./ZBYN/IAC/ZBYN-10C.pdf">ZBYN-10C</a>&nbsp;&nbsp;<a href="./ZBYN/IAC/ZBYN-10D.pdf">ZBYN-10D</a></p>
-      <p class="tag"><a href="./ZBYN/IAC/ZBYN-10E.pdf">ZBYN-10E</a>&nbsp;&nbsp;<a href="./ZBYN/IAC/ZBYN-20A.pdf">ZBYN-20A</a></p>
-      <p class="tag"><a href="./ZBYN/IAC/ZBYN-20B.pdf">ZBYN-20B</a></p>
-      <p class="tag">标准仪表离场图:</p>
-      <p class="tag"><a href="./ZBYN/SID/ZBYN-7A.pdf">ZBYN-7A</a>&nbsp;&nbsp;<a href="./ZBYN/SID/ZBYN-7B.pdf">ZBYN-7B</a></p>
-      <p class="tag"><a href="./ZBYN/SID/ZBYN-7C.pdf">ZBYN-7C</a>&nbsp;&nbsp;<a href="./ZBYN/SID/ZBYN-7D.pdf">ZBYN-7D</a></p>
-      <p class="tag">标准仪表进近图:</p>
-      <p class="tag"><a href="./ZBYN/STAR/ZBYN-9A.pdf">ZBYN-9A</a>&nbsp;&nbsp;<a href="./ZBYN/STAR/ZBYN-9B.pdf">ZBYN-9B</a></p>
-      <p class="tag"><a href="./ZBYN/STAR/ZBYN-9C.pdf">ZBYN-9C</a>&nbsp;&nbsp;<a href="./ZBYN/STAR/ZBYN-9D.pdf">ZBYN-9D</a></p>
+    <div class="gz1">
+      <div class="layui-collapse">
+        <div class="layui-colla-item">
+          <h4 class="layui-colla-title">ZBYN/太原武宿国际机场</h4>
+          <div class="layui-colla-content">
+            <p class="tag">机场细则:</p>
+            <p class="tag"><a href="./ZBYN/AD/AD_ZBYN.pdf">AD_ZBYN</a>&nbsp;&nbsp;<a href="./ZBYN/AD/ZBYN.pdf">ZBYN</a></p>
+            <p class="tag">机场图:</p>
+            <p class="tag"><a href="./ZBYN/ADC/ZBYN-1.pdf">ZBYN-1</a></p>
+            <p class="tag">机场障碍物图:</p>
+            <p class="tag"><a href="./ZBYN/AOC/ZBYN-4.pdf">ZBYN-4</a></p>
+            <p class="tag">停机位图:</p>
+            <p class="tag"><a href="./ZBYN/APDC/ZBYN-2.pdf">ZBYN-2</a></p>
+            <p class="tag">仪表进近图:</p>
+            <p class="tag"><a href="./ZBYN/IAC/ZBYN-10A.pdf">ZBYN-10A</a>&nbsp;&nbsp;<a href="./ZBYN/IAC/ZBYN-10B.pdf">ZBYN-10B</a></p>
+            <p class="tag"><a href="./ZBYN/IAC/ZBYN-10C.pdf">ZBYN-10C</a>&nbsp;&nbsp;<a href="./ZBYN/IAC/ZBYN-10D.pdf">ZBYN-10D</a></p>
+            <p class="tag"><a href="./ZBYN/IAC/ZBYN-10E.pdf">ZBYN-10E</a>&nbsp;&nbsp;<a href="./ZBYN/IAC/ZBYN-20A.pdf">ZBYN-20A</a></p>
+            <p class="tag"><a href="./ZBYN/IAC/ZBYN-20B.pdf">ZBYN-20B</a></p>
+            <p class="tag">标准仪表离场图:</p>
+            <p class="tag"><a href="./ZBYN/SID/ZBYN-7A.pdf">ZBYN-7A</a>&nbsp;&nbsp;<a href="./ZBYN/SID/ZBYN-7B.pdf">ZBYN-7B</a></p>
+            <p class="tag"><a href="./ZBYN/SID/ZBYN-7C.pdf">ZBYN-7C</a>&nbsp;&nbsp;<a href="./ZBYN/SID/ZBYN-7D.pdf">ZBYN-7D</a></p>
+            <p class="tag">标准仪表进近图:</p>
+            <p class="tag"><a href="./ZBYN/STAR/ZBYN-9A.pdf">ZBYN-9A</a>&nbsp;&nbsp;<a href="./ZBYN/STAR/ZBYN-9B.pdf">ZBYN-9B</a></p>
+            <p class="tag"><a href="./ZBYN/STAR/ZBYN-9C.pdf">ZBYN-9C</a>&nbsp;&nbsp;<a href="./ZBYN/STAR/ZBYN-9D.pdf">ZBYN-9D</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Footer Section -->
   <footer id="contact">
     <div align="center"> <a style="vertical-align: middle;" target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=a9991bb9f187cf148c9a5e51f1c79340cdfdef59097cfaa21d1fea8ba1c5f402"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Xplane11-CAFS虚拟海航集团" title="Xplane11-CAFS虚拟海航集团"></a> </div>
-      <p align="center">群号：636229841</p>
+    <p align="center">群号：636229841</p>
   </footer>
   <!-- Copyrights Section -->
-  
 </div>
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
 <!-- Main Container Ends -->
 </body>
 </html>
